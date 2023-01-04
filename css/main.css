@@ -917,13 +917,13 @@ h1 {
 
 .hero {
   min-height: 93vh;
-  background: url(assets/img/firstPage/heroBg.webp) center center/cover no-repeat;
+  background: url(../assets/img/firstPage/heroBg.webp) center center/cover no-repeat;
   color: var(--white);
   padding-top: 85px;
 }
 @media screen and (max-width: 800px) {
   .hero {
-    background: url(assets/img/firstPage/heroBgLaptop.webp) left top/cover no-repeat;
+    background: url(../assets/img/firstPage/heroBgLaptop.webp) left top/cover no-repeat;
   }
 }
 .hero__inner {
