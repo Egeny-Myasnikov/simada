@@ -1,0 +1,119 @@
+@mixin title1 {
+    font-family: MontserratMedium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 73px;
+    text-transform: uppercase;
+
+    @media screen and(max-width:920px) {
+        font-size: 44px;
+        line-height: 54px;
+    }
+
+    @media screen and(max-width:500px) {
+        font-size: 29px;
+        line-height: 120%;
+    }
+}
+
+@mixin title2 {
+    font-family: MontserratRegular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 73px;
+    text-transform: uppercase;
+
+    @media screen and(max-width:920px) {
+        font-size: 44px;
+        line-height: 54px;
+    }
+
+    @media screen and(max-width:500px) {
+        font-size: 29px;
+        line-height: 35px;
+    }
+}
+
+@mixin title3 {
+    font-family: MontserratMedium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+}
+
+@mixin title4 {
+    font-family: MontserratSemiBold, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+
+@mixin text32px {
+    font-family: MontserratRegular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    text-transform: uppercase;
+}
+
+@mixin text16pxUpper {
+    font-family: MontserratRegular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+@mixin text18pxUpper {
+    font-family: MontserratRegular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+@mixin text16pxLower {
+    font-family: MontserratRegular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+
+@mixin textButton {
+    font-family: MontserratSemiBold, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+
+@mixin text16pxBold {
+    font-family: MontserratBold, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+@mixin text12px {
+    font-family: MontserratRegular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,37 @@
+.choose-us {
+    &__list {
+        display: grid;
+        gap: 65px 10px;
+        grid-template-columns: repeat(3, 1fr);
+
+        @media screen and(max-width:920px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @media screen and(max-width:500px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+
+    &__item {
+        max-width: 260px;
+
+        @media screen and(max-width:500px) {
+            max-width: 100%;
+        }
+
+        &-title {
+            @include title4;
+            color: var(--red);
+            line-height: 70px;
+            border-bottom: 1px solid var(--black);
+            margin-bottom: 15px;
+        }
+
+        &-text {
+            @include text16pxUpper;
+            line-height: 20px;
+
+        }
+    }
+}
