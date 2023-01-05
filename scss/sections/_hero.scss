@@ -8,7 +8,6 @@
         background: url(../assets/img/firstPage/heroBgLaptop.webp) left top /cover no-repeat;
     }
 
-
     &__inner {
         width: 100%;
         min-height: 93vh;
@@ -21,7 +20,6 @@
 
     &__container {
         display: flex;
-        // background: rgb(196, 79, 79);
         min-height: 93vh;
         padding-bottom: 50px;
 
@@ -37,7 +35,6 @@
     }
 
     &__left {
-        // background: #000;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
@@ -53,7 +50,6 @@
     }
 
     &__right {
-        // background: rgb(67, 67, 67);
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -91,7 +87,6 @@
             width: 100%;
             margin-bottom: 60px;
         }
-
     }
 
     &__btn {

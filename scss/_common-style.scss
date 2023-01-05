@@ -3,8 +3,6 @@ body {
     background-color: var(--beige);
 }
 
-
-
 h1 {
     @include title1;
 }
@@ -135,7 +133,6 @@ h1 {
     &--center {
         text-align: center;
     }
-
 }
 
 .fx {

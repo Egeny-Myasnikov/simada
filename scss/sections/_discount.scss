@@ -1,15 +1,5 @@
 .discount {
 
-    // &__row {
-    //     display: grid;
-    //     grid-auto-flow: column;
-    // }
-
-    // &__col {
-    //     border: 1px solid #000;
-    //     min-height: 180px;
-    // }
-
     &__list {
         display: flex;
         flex-direction: column;
@@ -69,11 +59,9 @@
         min-height: 372px;
         max-width: 630px;
 
-        // width: 630px;
         @media screen and(max-width:920px) {
             min-height: 36 0px;
             max-width: 600px;
-            // margin: auto;
         }
 
         @media screen and(max-width:500px) {
