@@ -803,8 +803,6 @@ h1 {
 }
 .slider__slides::-webkit-scrollbar {
   height: 8px;
-  min-width: 100px;
-  max-width: 100px;
 }
 .slider__slides::-webkit-scrollbar-thumb {
   background-color: #d6d6d6;
@@ -813,12 +811,35 @@ h1 {
 }
 .slider__slides::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  background-color: #575757;
+  background-color: rgba(87, 87, 87, 0.4);
+}
+@media screen and (max-width: 920px) {
+  .slider__slides {
+    min-height: 476px;
+  }
+  .slider__slides::-webkit-scrollbar {
+    height: 5px;
+  }
+  .slider__slides::-webkit-scrollbar-thumb {
+    background-color: initial;
+    border-radius: initial;
+    cursor: default;
+  }
+  .slider__slides::-webkit-scrollbar-track {
+    -webkit-box-shadow: initial;
+    background-color: initial;
+  }
 }
 .slider__slide {
   min-height: 676px;
   min-width: 407px;
   position: relative;
+}
+@media screen and (max-width: 920px) {
+  .slider__slide {
+    min-height: 476px;
+    min-width: 307px;
+  }
 }
 .slider__slide img {
   position: absolute;

@@ -12,9 +12,6 @@
 
         &::-webkit-scrollbar {
             height: 8px;
-            min-width: 100px;
-            max-width: 100px;
-
         }
 
         &::-webkit-scrollbar-thumb {
@@ -25,14 +22,41 @@
 
         &::-webkit-scrollbar-track {
             -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-            background-color: #575757;
+            background-color: rgba(87, 87, 87, 0.4);
         }
+
+        @media screen and(max-width:920px) {
+            min-height: 476px;
+
+            &::-webkit-scrollbar {
+                height: 5px;
+
+            }
+
+            &::-webkit-scrollbar-thumb {
+                background-color: initial;
+                border-radius: initial;
+                cursor: default;
+            }
+
+            &::-webkit-scrollbar-track {
+                -webkit-box-shadow: initial;
+                background-color: initial;
+            }
+        }
+
+
     }
 
     &__slide {
         min-height: 676px;
         min-width: 407px;
         position: relative;
+
+        @media screen and(max-width:920px) {
+            min-height: 476px;
+            min-width: 307px;
+        }
 
         img {
             position: absolute;
