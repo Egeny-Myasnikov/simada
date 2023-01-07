@@ -110,6 +110,10 @@ sup {
 
 img {
   border-style: none;
+  object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 button,
@@ -320,6 +324,10 @@ h1 {
     flex-direction: column;
   }
 }
+.btns-grid {
+  display: grid;
+  gap: 15px;
+}
 
 .btn {
   font-family: MontserratSemiBold, sans-serif;
@@ -521,6 +529,11 @@ h1 {
   line-height: 15px;
   text-transform: uppercase;
   text-align: center;
+}
+@media screen and (max-width: 640px) {
+  .nav {
+    font-size: 10px;
+  }
 }
 @media screen and (max-width: 920px) {
   .nav__inner {
@@ -1164,6 +1177,11 @@ h1 {
   color: var(--grayDark);
   text-transform: none;
 }
+@media screen and (max-width: 640px) {
+  .services__text {
+    font-size: 10px;
+  }
+}
 
 .choose-us__list {
   display: grid;
@@ -1420,4 +1438,265 @@ h1 {
 .stock__btns {
   margin-top: 70px;
   justify-content: start;
+}
+
+.manicure-hero {
+  margin-top: 200px;
+}
+@media screen and (max-width: 640px) {
+  .manicure-hero {
+    margin-bottom: 200px;
+  }
+}
+@media screen and (max-width: 920px) {
+  .manicure-hero {
+    margin-top: 100px;
+  }
+}
+.manicure-hero__fx {
+  position: relative;
+  align-items: start;
+}
+@media screen and (max-width: 920px) {
+  .manicure-hero__fx {
+    flex-direction: row;
+    align-items: start;
+    gap: 0px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .manicure-hero__fx {
+    flex-direction: column;
+    align-items: start;
+  }
+}
+.manicure-hero__title {
+  margin: 0;
+}
+.manicure-hero__description {
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+@media screen and (max-width: 920px) {
+  .manicure-hero__description {
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .manicure-hero__description {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .manicure-hero__btns-grid {
+    transform: translateY(330px);
+  }
+}
+.manicure-hero__right {
+  display: grid;
+  justify-items: end;
+  align-items: start;
+}
+@media screen and (max-width: 640px) {
+  .manicure-hero__right {
+    transform: translateY(-130px);
+  }
+}
+.manicure-hero__img {
+  grid-column: 1/1;
+  grid-row: 1/1;
+}
+.manicure-hero__img--1 {
+  justify-self: start;
+  transform: translate(0, 40%);
+}
+@media screen and (max-width: 920px) {
+  .manicure-hero__img--1 {
+    width: 180px;
+    height: 180px;
+  }
+}
+@media screen and (max-width: 920px) {
+  .manicure-hero__img--2 {
+    width: 180px;
+    height: 180px;
+  }
+}
+.manicure-hero__img--3 {
+  justify-self: center;
+  align-self: end;
+  transform: translate(0, 150%);
+}
+@media screen and (max-width: 920px) {
+  .manicure-hero__img--3 {
+    width: 100px;
+    height: 100px;
+  }
+}
+.manicure-hero__star {
+  width: 100%;
+  height: 100%;
+  stroke: var(--red);
+}
+
+.manicure-types {
+  margin-top: 250px;
+}
+@media screen and (max-width: 920px) {
+  .manicure-types {
+    margin-top: 50px;
+  }
+}
+.manicure-types__container {
+  border: 1px solid var(--grayLight);
+  display: flex;
+  justify-content: space-between;
+  gap: 44px;
+  padding: 30px 0;
+  overflow-x: auto;
+}
+@media screen and (max-width: 920px) {
+  .manicure-types__container {
+    padding: 30px 20px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .manicure-types__container {
+    padding: 30px 10px;
+  }
+}
+.manicure-types__block {
+  text-align: center;
+}
+.manicure-types__img {
+  width: 362px;
+  height: 362px;
+}
+@media screen and (max-width: 920px) {
+  .manicure-types__img {
+    width: 270px;
+    height: 270px;
+  }
+}
+.manicure-types__title {
+  font-family: MontserratSemiBold, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+@media screen and (max-width: 640px) {
+  .manicure-types__title {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+.manicure-types__price {
+  font-family: MontserratRegular, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 15px 0;
+}
+.manicure-types__btn {
+  width: 80%;
+}
+
+.manicure-cost__h3 {
+  font-family: MontserratRegular, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  text-transform: uppercase;
+  color: var(--red);
+  border-bottom: 1px solid var(--grayLight);
+  padding: 10px 0;
+}
+@media screen and (max-width: 920px) {
+  .manicure-cost__h3 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .manicure-cost__h3 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+.manicure-cost__fx {
+  align-items: start;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  gap: 40px;
+}
+@media screen and (max-width: 920px) {
+  .manicure-cost__fx {
+    margin-top: 35px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .manicure-cost__fx {
+    margin-top: 20px;
+  }
+}
+.manicure-cost__item {
+  position: relative;
+  font-family: MontserratSemiBold, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  border-bottom: 1px solid var(--grayLight);
+  padding: 10px 0;
+}
+@media screen and (max-width: 640px) {
+  .manicure-cost__item {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+.manicure-cost__item:not(:last-child) {
+  margin-bottom: 30px;
+}
+.manicure-cost__option-text {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  font-family: MontserratRegular, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: var(--grayLight);
+}
+@media screen and (max-width: 640px) {
+  .manicure-cost__option-text {
+    font-size: 10px;
+  }
+}
+.manicure-cost__btn {
+  flex-basis: 35%;
+}
+@media screen and (max-width: 920px) {
+  .manicure-cost__btn {
+    flex-basis: 100%;
+    width: 70%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .manicure-cost__btn {
+    flex-basis: 100%;
+    width: 100%;
+  }
 }

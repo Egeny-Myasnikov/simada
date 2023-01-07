@@ -69,6 +69,11 @@ h1 {
     @media screen and(max-width:920px) {
         flex-direction: column;
     }
+
+    &-grid {
+        display: grid;
+        gap: 15px;
+    }
 }
 
 .btn {
@@ -152,6 +157,7 @@ h1 {
     &__col {
         flex-grow: 1;
         width: 50%;
+
 
         @media screen and(max-width:920px) {
             width: 100%;

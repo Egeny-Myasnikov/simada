@@ -61,6 +61,16 @@
     font-size: 32px;
     line-height: 39px;
     text-transform: uppercase;
+
+    @media screen and(max-width:920px) {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    @media screen and(max-width:640px) {
+        font-size: 18px;
+        line-height: 22px;
+    }
 }
 
 @mixin text16pxUpper {
@@ -116,4 +126,22 @@
     font-size: 12px;
     line-height: 15px;
     text-transform: uppercase;
+
+    @media screen and(max-width:640px) {
+        font-size: 10px;
+    }
+}
+
+@mixin title20px {
+    font-family: MontserratSemiBold, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+
+    @media screen and(max-width:640px) {
+        font-size: 14px;
+        line-height: 17px;
+    }
 }

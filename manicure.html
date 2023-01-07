@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- manifest -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="favicons/favicon-48x48.png">
+    <link rel="manifest" href="favicons/manifest.json">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#fff">
+    <meta name="application-name" content="Салон красоты -- Simada">
+    <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="favicons/apple-touch-icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="1024x1024" href="favicons/apple-touch-icon-1024x1024.png">
+    <!-- manifest ///-->
+    <script src="js/main.js" defer type="module"></script>
+    <title>Маникюр и педикюр -- Simada</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="container header__container">
+                <div class="header__left">
+                    <a href="index.html" class="logo">
+                        <img src="assets/img/logo.png" alt="Салон красоты -- Simada">
+                    </a>
+
+                    <!-- ========== nav -->
+
+                    <nav class="nav">
+                        <button class="nav-burger">
+                            <span class="nav-burger__line"></span>
+                        </button>
+                        <div class="nav__inner">
+                            <ul class="nav__list">
+                                <li class="nav__item drop nav__drop">
+                                    <a href="#" class="nav__link nav__link--drop">услуги</a>
+                                    <ul class="drop__list">
+                                        <li class="drop__item"><a class="drop__link" href="#">стрижки</a></li>
+                                        <li class="drop__item"><a class="drop__link" href="#">окрашивание</a></li>
+                                        <li class="drop__item"><a class="drop__link" href="#">уход</a></li>
+                                        <li class="drop__item"><a class="drop__link" href="#">укладки</a></li>
+                                        <li class="drop__item"><a class="drop__link" href="#">биозавивка</a></li>
+                                        <li class="drop__item"><a class="drop__link" href="manicure.html">ногтевой
+                                                сервис</a></li>
+                                        <li class="drop__item"><a class="drop__link" href="#">визаж</a></li>
+                                        <li class="drop__item"><a class="drop__link" href="#">перманентный макияж</a>
+                                        </li>
+                                        <li class="drop__item"><a class="drop__link" href="#">массаж</a></li>
+                                        <li class="drop__item"><a class="drop__link" href="#">солярий</a></li>
+                                        <li class="drop__item"><a class="drop__link" href="#">эндосфера</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav__item nav__drop drop">
+                                    <a href="#" class="nav__link nav__link--drop">косметология</a>
+
+                                    <ul class="drop__list">
+                                        <li class="drop__item"><a class="drop__link" href="#">инъекционная
+                                                косметология</a>
+                                        </li>
+                                        <li class="drop__item"><a class="drop__link" href="#">эстетическая
+                                                косметология</a>
+                                        </li>
+                                        <li class="drop__item"><a class="drop__link" href="#">аппаратная
+                                                косметология</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav__item"><a href="#" class="nav__link">портфолио</a></li>
+                                <li class="nav__item"><a href="#" class="nav__link">специалисты</a></li>
+                                <li class="nav__item"><a href="#" class="nav__link">акции</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="header__right">
+                    <div class="work-time">ПН. - ВС. 10:00 - 22:00</div>
+                    <button class="btn btn__solid header__btn">Записаться</button>
+                </div>
+
+
+            </div>
+        </header>
+        <main class="main">
+            <!-- manicure-hero -->
+            <section class="manicure-hero">
+                <div class="container">
+                    <div class="fx manicure-hero__fx">
+                        <hgroup class="fx__col manicure-hero__left">
+                            <h1 class="manicure-hero__title ">Маникюр <br> и педикюр</h1>
+                            <p class="manicure-hero__description">
+                                Все виды маникюра и педикюра, <br> покрытие, полировка, ремонт ногтей
+                            </p>
+                            <div class="btns-grid manicure-hero__btns-grid">
+                                <button
+                                    class="btn btn__solid btn__solid--black manicure-hero__btn manicure-hero__btn--sale">получить
+                                    скидку 20% на первый визит</button>
+                                <button
+                                    class="btn btn__transp btn__transp--black manicure-hero__btn manicure-hero__btn--feedback">записаться
+                                    онлайн</button>
+                            </div>
+
+                        </hgroup>
+                        <div class="fx__col manicure-hero__right">
+                            <div class="manicure-hero__img manicure-hero__img--1">
+                                <img src="assets/img/manicure/maincure-hero-img_1.webp"
+                                    alt="Маникюр и педикюр -- Simada">
+                            </div>
+                            <div class="manicure-hero__img manicure-hero__img--2">
+                                <img src="assets/img/manicure/maincure-hero-img_2.webp"
+                                    alt="Маникюр и педикюр -- Simada">
+                            </div>
+                            <div class="manicure-hero__img manicure-hero__img--3">
+                                <svg class="svg manicure-hero__star">
+                                    <use xlink:href="assets/sprite.svg#star" />
+                                    <svg />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- manicure-types -->
+            <section class="manicure-types">
+                <div class="container manicure-types__container">
+                    <!-- 1 -->
+                    <div class="manicure-types__block">
+                        <div class="manicure-types__img">
+                            <img src="assets/img/manicure/female-manicure.webp" alt="">
+                        </div>
+                        <h3 class="manicure-types__title">женский маникюр</h3>
+                        <p class="manicure-types__price">от 650 р</p>
+                        <button class="btn btn__solid manicure-types__btn">Записаться</button>
+                    </div>
+                    <!-- 2 -->
+
+                    <div class="manicure-types__block">
+                        <div class="manicure-types__img">
+                            <img src="assets/img/manicure/male-manicure.webp" alt="">
+                        </div>
+                        <h3 class="manicure-types__title">Мужской маникюр</h3>
+                        <p class="manicure-types__price">от 900 р</p>
+                        <button class="btn btn__solid manicure-types__btn">Записаться</button>
+                    </div>
+                    <!-- 3 -->
+
+                    <div class="manicure-types__block">
+                        <div class="manicure-types__img">
+                            <img src="assets/img/manicure/pedicure.webp" alt="">
+                        </div>
+                        <h3 class="manicure-types__title">педикюр</h3>
+                        <p class="manicure-types__price">от 1300 р</p>
+                        <button class="btn btn__solid manicure-types__btn">Записаться</button>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- discount -->
+            <section class="manicure-cost">
+                <div class="container">
+                    <h2 class="section__title">Стоимость</h2>
+                    <h3 class="manicure-cost__h3">Маникюр женский</h3>
+                    <div class="fx fx--sb manicure-cost__fx">
+                        <div class="fx__col">
+                            <ul class="manicure-cost__list">
+                                <li class="manicure-cost__item">
+                                    <span>Маникюр смарт/пилочный </span>
+                                    <span> 1200</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Маникюр классический </span>
+                                    <span class="manicure-cost__option-text">комбинированный / аппаратный</span>
+                                    <span> 650 / 750</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Детский маникюр (до 7 лет) </span>
+                                    <span> 400</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Покрытие гель-лаком </span>
+                                    <span class="manicure-cost__option-text">лечебный / Blossom / френч</span>
+                                    <span> 200 / 800 / 1000</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Покрытие гель-лаком </span>
+                                    <span class="manicure-cost__option-text">E.Mi / френч</span>
+                                    <span> 900 / 1200</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Покрытие лаком Vinylux </span>
+                                    <span> 450</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Снятие лака </span>
+                                    <span> 100</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Снятие гель-лака фрезой </span>
+                                    <span> 200</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Укрепление ногтей биогелем </span>
+                                    <span> 900</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Укрепление ногтей акриловой пудрой </span>
+                                    <span> 500</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="fx__col">
+                            <ul class="manicure-cost__list">
+                                <li class="manicure-cost__item">
+                                    <span>Укрепление IBX под гель-лак </span>
+                                    <span> 500</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Выравнивание ногтевой пластины базой </span>
+                                    <span> 500</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Полировка, шлифовка ногтей </span>
+                                    <span> 200</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>SPA-для рук (скраб, массаж, крем) </span>
+                                    <span> 400</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Массаж рук </span>
+                                    <span> 200</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Парафинотерапия рук </span>
+                                    <span> 400</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Дизайн ногтей </span>
+                                    <span> 200</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Покрытие Cosmo / (френч) </span>
+                                    <span> 900 / 1200</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Покрытие Luxio / (френч) </span>
+                                    <span> 1000 / 1400</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h3 class="manicure-cost__h3">Педикюр женский</h3>
+                    <div class="fx fx--sb manicure-cost__fx">
+                        <div class="fx__col">
+                            <ul class="manicure-cost__list">
+                                <li class="manicure-cost__item">
+                                    <span>Педикюр классический/комбинированный </span>
+                                    <span> 1300</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Педикюр аппаратный </span>
+                                    <span> 1450</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Педикюр "Kapous"/Смарт </span>
+                                    <span> 1700</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Обработка стоп / пальцев </span>
+                                    <span> 700 / 800</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Массаж ног </span>
+                                    <span> 400</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="fx__col">
+                            <ul class="manicure-cost__list">
+                                <li class="manicure-cost__item">
+                                    <span>SPA-для ног (скраб, массаж, крем) </span>
+                                    <span> 400</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Парафинотерапия ног </span>
+                                    <span> 500</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Обработка мозолистостей 1 элемент </span>
+                                    <span> 150</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Коррекция сложного ногтя </span>
+                                    <span> 250</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h3 class="manicure-cost__h3">Маникюр мужской</h3>
+                    <div class="fx fx--sb manicure-cost__fx">
+                        <div class="fx__col">
+                            <ul class="manicure-cost__list">
+                                <li class="manicure-cost__item">
+                                    <span>Маникюр (аппаратный, гигиенический) </span>
+                                    <span> 900</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Массаж рук </span>
+                                    <span> 300</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Лечебное покрытие </span>
+                                    <span> 200</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Смарт маникюр </span>
+                                    <span> 1500</span>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="fx__col">
+                            <ul class="manicure-cost__list">
+                                <li class="manicure-cost__item">
+                                    <span>Полировка, шлифовка </span>
+                                    <span> 200</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Парафинотерапия рук </span>
+                                    <span> 400</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>SPA-для рук (сраб, массаж, крем) </span>
+                                    <span> 400</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h3 class="manicure-cost__h3">Педикюр мужской</h3>
+                    <div class="fx fx--sb manicure-cost__fx">
+                        <div class="fx__col">
+                            <ul class="manicure-cost__list">
+                                <li class="manicure-cost__item">
+                                    <span>Педикюр </span>
+                                    <span> 1750</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Педикюр "Kapous"/Смарт </span>
+                                    <span> 2000</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Обработка стоп </span>
+                                    <span> 1200</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Обработка пальцев </span>
+                                    <span> 1100</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Парафинотерапия ног </span>
+                                    <span> 500</span>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="fx__col">
+                            <ul class="manicure-cost__list">
+                                <li class="manicure-cost__item">
+                                    <span>Массаж ног </span>
+                                    <span> 400</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>SPA - для ног (скраб, массаж, крем) </span>
+                                    <span> 400</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Коррекция сложного ногтя </span>
+                                    <span> 250</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h3 class="manicure-cost__h3">Наращивание</h3>
+                    <div class="fx fx--sb manicure-cost__fx">
+                        <div class="fx__col">
+                            <ul class="manicure-cost__list">
+                                <li class="manicure-cost__item">
+                                    <span>Наращивание ногтей / коррекция </span>
+                                    <span> 2000 / 1500</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Наращивание с удлинением ногтевой пластины / коррекция </span>
+                                    <span> 2500 / 2000</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Снятие ногтей (акрил, гель) </span>
+                                    <span> 500</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="fx__col">
+                            <ul class="manicure-cost__list">
+                                <li class="manicure-cost__item">
+                                    <span>Форма ногтей </span>
+                                    <span> 250</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Ремонт 1 ногтя </span>
+                                    <span> 150</span>
+                                </li>
+                                <li class="manicure-cost__item">
+                                    <span>Наращивание ногтей на ногах (1 ноготь) </span>
+                                    <span> 200</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="btns">
+                        <button class="btn btn__solid btn__solid--black manicure-cost__btn">Получи скидку 20% на первый
+                            визит</button>
+                        <button class="btn btn__transp btn__transp--black manicure-cost__btn">Записаться онлайн</button>
+                    </div>
+                </div>
+            </section>
+            <!-- choose-us -->
+            <section class="choose-us">
+                <div class="container">
+                    <h2 class="section__title">Почему выбирают нас</h2>
+                    <ul class="choose-us__list">
+                        <li class="choose-us__item">
+                            <h3 class="choose-us__item-title">01</h3>
+                            <p class="choose-us__item-text">Широкий спектр услуг в&nbsp;одном месте</p>
+                        </li>
+                        <li class="choose-us__item">
+                            <h3 class="choose-us__item-title">02</h3>
+                            <p class="choose-us__item-text">Медицинская лицензия</p>
+                        </li>
+                        <li class="choose-us__item">
+                            <h3 class="choose-us__item-title">03</h3>
+                            <p class="choose-us__item-text">Большой выбор инъекционных процедур</p>
+                        </li>
+                        <li class="choose-us__item">
+                            <h3 class="choose-us__item-title">04</h3>
+                            <p class="choose-us__item-text">Аппарат эндосфера</p>
+                        </li>
+                        <li class="choose-us__item">
+                            <h3 class="choose-us__item-title">05</h3>
+                            <p class="choose-us__item-text">5 мин. от метро митино&nbsp;/&nbsp;коптево</p>
+                        </li>
+                        <li class="choose-us__item">
+                            <h3 class="choose-us__item-title">06</h3>
+                            <p class="choose-us__item-text">Бесплатная парковка</p>
+                        </li>
+                    </ul>
+
+                </div>
+            </section>
+
+            <!-- portfolio -->
+            <section class="portfolio">
+                <div class="container">
+                    <h2 class="section__title">Портфолио</h2>
+                </div>
+                <div class="slider portfolio__slider">
+                    <div class="slider__slides">
+                        <!-- 1 -->
+                        <div class="slider__slide">
+                            <img src="assets/img/firstPage/portfolio/1.webp" alt="">
+                        </div>
+                        <!-- 2 -->
+                        <div class="slider__slide">
+                            <img src="assets/img/firstPage/portfolio/2.webp" alt="">
+                        </div>
+                        <!-- 3 -->
+                        <div class="slider__slide">
+                            <img src="assets/img/firstPage/portfolio/3.webp" alt="">
+                        </div>
+
+                        <!-- 1 -->
+                        <div class="slider__slide">
+                            <img src="assets/img/firstPage/portfolio/1.webp" alt="">
+                        </div>
+                        <!-- 2 -->
+                        <div class="slider__slide">
+                            <img src="assets/img/firstPage/portfolio/2.webp" alt="">
+                        </div>
+                        <!-- 3 -->
+                        <div class="slider__slide">
+                            <img src="assets/img/firstPage/portfolio/3.webp" alt="">
+                        </div>
+                        <!-- 1 -->
+                        <div class="slider__slide">
+                            <img src="assets/img/firstPage/portfolio/1.webp" alt="">
+                        </div>
+                        <!-- 2 -->
+                        <div class="slider__slide">
+                            <img src="assets/img/firstPage/portfolio/2.webp" alt="">
+                        </div>
+                        <!-- 3 -->
+                        <div class="slider__slide">
+                            <img src="assets/img/firstPage/portfolio/3.webp" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="fx footer__fx">
+                <div class="fx__col footer__col footer__block-map">
+                    <picture>
+                        <source srcset="assets/img/firstPage/map_min.png" media="(max-width: 600px)" />
+                        <img src="assets/img/firstPage/map.webp" alt="Салон красоты -- Simada" />
+                    </picture>
+                </div>
+                <div class="fx__col  footer__col">
+                    <h2 class="section__title">Контакты</h2>
+                    <div class="footer__contacts">
+                        <div class="footer__contact">
+                            <a href="" target="_blank">
+                                <svg class="svg svg__whatsapp footer__whatsapp">
+                                    <use xlink:href="assets/sprite.svg#whatsapp" />
+                                    <svg />
+                            </a>
+                            <div>
+                                <address class="footer__address">ул. Михалковская, 1/51, <br>
+                                    м. Коптево</address>
+                                <a class="footer__tel" href="tel:+74959477787">+7(495) 947-77-87</a>
+                            </div>
+                        </div>
+                        <div class="footer__contact">
+                            <a href="" target="_blank">
+                                <svg class="svg svg__whatsapp footer__whatsapp">
+                                    <use xlink:href="assets/sprite.svg#whatsapp" />
+                                    <svg />
+                            </a>
+                            <div>
+                                <address class="footer__address">Пятницкое шоссе, д.9 <br> м. Митино, <br> м.
+                                    Волоколамская
+                                </address>
+                                <a class="footer__tel" href="tel:+74959477787">+7(495) 947-77-87</a>
+                            </div>
+
+                        </div>
+                        <a class="footer__link" href="https://instagram.com" target="_blank">instagram</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>
