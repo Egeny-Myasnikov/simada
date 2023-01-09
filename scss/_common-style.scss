@@ -123,6 +123,18 @@ h1 {
 
 }
 
+// .section {
+//     margin-top: 200px;
+
+//     @media screen and(max-width:640px) {
+//         margin-bottom: 200px;
+//     }
+
+//     @media screen and(max-width:920px) {
+//         margin-top: 100px;
+//     }
+// }
+
 .section__title {
     @include title2;
     margin: 130px 0 70px 0;
@@ -138,6 +150,39 @@ h1 {
     &--center {
         text-align: center;
     }
+}
+
+.description {
+    &--lower {
+        @include text16pxLower;
+
+        @media screen and(max-width:920px) {
+            font-size: 14px;
+            line-height: 17px;
+        }
+
+        @media screen and(max-width:640px) {
+            font-size: 12px;
+            line-height: 15px;
+        }
+    }
+
+    &--upper {
+        @include text16pxUpper;
+    }
+
+    &--bold {
+        @include text16pxBold;
+    }
+
+
+}
+
+.big-num {
+    @include title4;
+    color: var(--red);
+    border-bottom: 1px solid var(--grayLight);
+    margin-bottom: 15px;
 }
 
 .fx {
@@ -223,6 +268,11 @@ h1 {
             left: 29%;
         }
     }
+}
+
+.svg {
+    width: 100%;
+    height: 100%;
 }
 
 
