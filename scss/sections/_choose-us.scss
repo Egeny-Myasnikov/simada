@@ -19,19 +19,5 @@
         @media screen and(max-width:500px) {
             max-width: 100%;
         }
-
-        &-title {
-            @include title4;
-            color: var(--red);
-            line-height: 70px;
-            border-bottom: 1px solid var(--black);
-            margin-bottom: 15px;
-        }
-
-        // &-text {
-        //     @include text16pxUpper;
-        //     line-height: 20px;
-
-        // }
     }
 }

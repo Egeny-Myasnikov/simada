@@ -1,62 +1,62 @@
-.manicure-cost {
-    &__h3 {
-        @include text32px;
-        color: var(--red);
-        border-bottom: 1px solid var(--grayLight);
-        padding: 10px 0;
+// .manicure-cost {
+//     &__h3 {
+//         @include text32px;
+//         color: var(--red);
+//         border-bottom: 1px solid var(--grayLight);
+//         padding: 10px 0;
 
 
-    }
+//     }
 
-    &__fx {
-        align-items: start;
-        margin-top: 50px;
-        margin-bottom: 70px;
-        gap: 40px;
+//     &__fx {
+//         align-items: start;
+//         margin-top: 50px;
+//         margin-bottom: 70px;
+//         gap: 40px;
 
-        @media screen and(max-width:920px) {
-            margin-top: 35px;
-        }
+//         @media screen and(max-width:920px) {
+//             margin-top: 35px;
+//         }
 
-        @media screen and(max-width:640px) {
-            margin-top: 20px;
-        }
-    }
+//         @media screen and(max-width:640px) {
+//             margin-top: 20px;
+//         }
+//     }
 
-    &__item {
-        position: relative;
-        @include title20px;
-        display: flex;
-        justify-content: space-between;
-        gap: 50px;
-        border-bottom: 1px solid var(--grayLight);
-        padding: 10px 0;
+//     &__item {
+//         position: relative;
+//         @include title20px;
+//         display: flex;
+//         justify-content: space-between;
+//         gap: 50px;
+//         border-bottom: 1px solid var(--grayLight);
+//         padding: 10px 0;
 
-        &:not(:last-child) {
-            margin-bottom: 30px;
-        }
-    }
+//         &:not(:last-child) {
+//             margin-bottom: 30px;
+//         }
+//     }
 
-    &__option-text {
-        position: absolute;
-        bottom: -20px;
-        left: 0;
-        @include text12px;
-        color: var(--grayLight);
+//     &__option-text {
+//         position: absolute;
+//         bottom: -20px;
+//         left: 0;
+//         @include text12px;
+//         color: var(--grayLight);
 
-    }
+//     }
 
-    &__btn {
-        flex-basis: 35%;
+//     &__btn {
+//         flex-basis: 35%;
 
-        @media screen and(max-width:920px) {
-            flex-basis: 100%;
-            width: 70%;
-        }
+//         @media screen and(max-width:920px) {
+//             flex-basis: 100%;
+//             width: 70%;
+//         }
 
-        @media screen and(max-width:640px) {
-            flex-basis: 100%;
-            width: 100%;
-        }
-    }
-}
+//         @media screen and(max-width:640px) {
+//             flex-basis: 100%;
+//             width: 100%;
+//         }
+//     }
+// }
