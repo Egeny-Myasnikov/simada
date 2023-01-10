@@ -2,6 +2,21 @@
     width: 100%;
     position: relative;
 
+    &__filter {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 75px;
+        margin-top: 150px;
+        justify-content: center;
+
+        @media screen and(max-width:920px) {
+            flex-wrap: nowrap;
+            gap: 10px;
+            overflow-x: auto;
+            justify-content: start;
+        }
+    }
+
     &__slides {
         width: 100%;
         overflow-x: auto;

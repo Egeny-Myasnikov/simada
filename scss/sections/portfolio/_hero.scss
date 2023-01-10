@@ -2,25 +2,29 @@
 
     &__hero {
 
-        background: url(../assets/img/portfolio/portfolio-hero.webp) center center /cover no-repeat;
+        background: url(../assets/img/portfolio-page/portfolio-hero.webp) center center /cover no-repeat;
 
         @media screen and(max-width:920px) {
-            background: url(../assets/img/portfolio/portfolio-hero--laptop.webp) left top /cover no-repeat;
+            background: url(../assets/img/portfolio-page/portfolio-hero--laptop.webp) left top /cover no-repeat;
         }
 
         @media screen and(max-width:640px) {
-            background: url(../assets/img/portfolio/portfolio-hero--mobile.webp) left top /cover no-repeat;
+            background: url(../assets/img/portfolio-page/portfolio-hero--mobile.webp) left top /cover no-repeat;
         }
     }
 
     &__inner {
         width: 100%;
         min-height: 93vh;
-        background: rgba(0, 0, 0, 0.4);
+        background: rgba(0, 0, 0, 0.2);
 
         @media screen and(max-width:920px) {
             background: rgba(0, 0, 0, 0.4);
         }
+    }
+
+    &__left {
+        justify-content: flex-start;
     }
 
 }

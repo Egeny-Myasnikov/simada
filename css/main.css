@@ -859,6 +859,21 @@ h1 {
   width: 100%;
   position: relative;
 }
+.slider__filter {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 75px;
+  margin-top: 150px;
+  justify-content: center;
+}
+@media screen and (max-width: 920px) {
+  .slider__filter {
+    flex-wrap: nowrap;
+    gap: 10px;
+    overflow-x: auto;
+    justify-content: start;
+  }
+}
 .slider__slides {
   width: 100%;
   overflow-x: auto;
@@ -1391,9 +1406,25 @@ h1 {
   }
 }
 
+.portfolio {
+  margin-bottom: 100px;
+}
 .portfolio__slider {
   max-width: 1600px;
   margin: 0 auto;
+}
+.portfolio__btns {
+  margin-top: 100px;
+}
+@media screen and (max-width: 920px) {
+  .portfolio__btns {
+    margin-top: 70px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .portfolio__btns {
+    margin-top: 50px;
+  }
 }
 
 .home__hero {
@@ -1754,25 +1785,28 @@ h1 {
 }
 
 .portfolio__hero {
-  background: url(../assets/img/portfolio/portfolio-hero.webp) center center/cover no-repeat;
+  background: url(../assets/img/portfolio-page/portfolio-hero.webp) center center/cover no-repeat;
 }
 @media screen and (max-width: 920px) {
   .portfolio__hero {
-    background: url(../assets/img/portfolio/portfolio-hero--laptop.webp) left top/cover no-repeat;
+    background: url(../assets/img/portfolio-page/portfolio-hero--laptop.webp) left top/cover no-repeat;
   }
 }
 @media screen and (max-width: 640px) {
   .portfolio__hero {
-    background: url(../assets/img/portfolio/portfolio-hero--mobile.webp) left top/cover no-repeat;
+    background: url(../assets/img/portfolio-page/portfolio-hero--mobile.webp) left top/cover no-repeat;
   }
 }
 .portfolio__inner {
   width: 100%;
   min-height: 93vh;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.2);
 }
 @media screen and (max-width: 920px) {
   .portfolio__inner {
     background: rgba(0, 0, 0, 0.4);
   }
+}
+.portfolio__left {
+  justify-content: flex-start;
 }
