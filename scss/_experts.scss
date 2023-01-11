@@ -1,0 +1,56 @@
+.experts {
+    max-width: 362px;
+
+    &__photo {
+        width: 362px;
+        height: 362px;
+        border-radius: 50%;
+        display: flex;
+        align-items: start;
+
+        img {
+            height: unset;
+        }
+    }
+
+    &__speciality {
+        font-size: 12px;
+        line-height: 15px;
+        font-family: MontserratBold, sans-serif;
+        text-transform: uppercase;
+        color: var(--red);
+        display: block;
+        margin: 10px 0px;
+    }
+
+    &__name {
+        font-family: MontserratRegular, sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: uppercase;
+        border-bottom: 1px solid var(--grayLight);
+        // padding-bottom: 5px;
+    }
+
+    &-about {
+        margin-top: 20px;
+        font-family: MontserratRegular, sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        display: grid;
+        gap: 10px;
+
+        strong {
+            font-family: MontserratSemiBold, sans-serif;
+            font-weight: 600;
+        }
+    }
+
+    &__btns {
+        display: grid;
+        gap: 10px;
+        margin-top: 25px;
+    }
+}

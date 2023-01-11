@@ -5,11 +5,11 @@
         background: url(../assets/img/portfolio-page/portfolio-hero.webp) center center /cover no-repeat;
 
         @media screen and(max-width:920px) {
-            background: url(../assets/img/portfolio-page/portfolio-hero--laptop.webp) left top /cover no-repeat;
+            background: url(../assets/img/portfolio-page/portfolio-hero--laptop.webp) right top /cover no-repeat;
         }
 
         @media screen and(max-width:640px) {
-            background: url(../assets/img/portfolio-page/portfolio-hero--mobile.webp) left top /cover no-repeat;
+            background: url(../assets/img/portfolio-page/portfolio-hero--mobile.webp) right top /cover no-repeat;
         }
     }
 

@@ -1,0 +1,37 @@
+.specialists {
+
+    &__hero {
+
+        background: url(../assets/img/specialists/specialists-hero.webp) center center /cover no-repeat;
+
+        @media screen and(max-width:920px) {
+            background: url(../assets/img/specialists/specialists-hero--laptop.webp) right top /cover no-repeat;
+        }
+
+        @media screen and(max-width:640px) {
+            background: url(../assets/img/specialists/specialists-hero--mobile.webp) right top /cover no-repeat;
+        }
+    }
+
+    &__inner {
+        width: 100%;
+        min-height: 93vh;
+        background: rgba(0, 0, 0, 0.4);
+
+        @media screen and(max-width:920px) {
+            background: rgba(0, 0, 0, 0.4);
+        }
+    }
+
+    &__left {
+        justify-content: flex-start;
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 70px;
+        column-gap: 25px;
+    }
+}
