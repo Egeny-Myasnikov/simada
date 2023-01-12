@@ -1,27 +1,9 @@
 .injection-hero {
 
-    &__container {
-        grid-template: "img title" auto
-            "img description" auto
-            "img btns" auto /1fr 1fr;
-
-        @media screen and(max-width:765px) {
-            grid-template: "title"
-                "description"
-                "img"
-                "btns";
-        }
-    }
-
     &__title {
         @media screen and(max-width:1040px) and(min-width:920px) {
             font-size: 44px;
             line-height: 54px;
-        }
-
-        @media screen and(max-width:640px) {
-            // font-size: unset;
-            // line-height: unset;
         }
     }
 

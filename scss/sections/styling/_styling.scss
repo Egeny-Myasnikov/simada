@@ -1,0 +1,17 @@
+.styling-hero__img {
+    width: 369px;
+    height: 490px;
+    justify-self: end;
+
+    @media screen and(max-width:920px) {
+        width: 268px;
+        height: 320px;
+        align-self: start;
+    }
+
+    @media screen and(max-width:640px) {
+        width: 260px;
+        height: 320px;
+        justify-self: center;
+    }
+}

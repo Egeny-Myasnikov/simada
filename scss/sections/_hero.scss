@@ -148,6 +148,19 @@
                 "img"
                 "btns";
         }
+
+        &--img-left {
+            grid-template: "img title" auto
+                "img description" auto
+                "img btns" auto /1fr 1fr;
+
+            @media screen and(max-width:765px) {
+                grid-template: "title"
+                    "description"
+                    "img"
+                    "btns";
+            }
+        }
     }
 
     &__title {
