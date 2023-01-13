@@ -71,6 +71,21 @@
             min-width: 307px;
         }
 
+        &--wide {
+            min-height: 500px;
+            min-width: 810px;
+
+            @media screen and(max-width:920px) {
+                min-height: 236px;
+                min-width: 382px;
+            }
+
+            @media screen and(max-width:640px) {
+                min-height: 125px;
+                min-width: 202px;
+            }
+        }
+
         img {
             position: absolute;
             left: 0;

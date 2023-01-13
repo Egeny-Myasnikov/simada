@@ -15,12 +15,26 @@
         padding: 30px 0;
         overflow-x: auto;
 
+
         @media screen and(max-width:920px) {
             padding: 30px 20px;
         }
 
         @media screen and(max-width:640px) {
             padding: 30px 10px;
+        }
+
+        &--certificates {
+            border: none;
+            column-gap: 0px;
+            row-gap: 20px;
+            overflow-x: hidden;
+            flex-wrap: wrap;
+
+            @media screen and(max-width:640px) {
+                justify-content: center;
+                column-gap: 10px;
+            }
         }
     }
 
@@ -36,20 +50,30 @@
             width: 270px;
             height: 270px;
         }
+
+        &--certificates {
+            width: 275px;
+            height: 133px;
+        }
     }
 
     &__title {
         @include title20px;
         margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     &__price {
         @include text16pxLower;
-        margin: 15px 0;
+        margin: 0 0 15px 0;
     }
 
     &__btn {
         width: 80%;
+
+        &--certificates {
+            width: 90%;
+        }
     }
 }
 

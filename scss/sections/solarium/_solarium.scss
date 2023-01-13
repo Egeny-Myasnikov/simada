@@ -1,0 +1,9 @@
+.solarium-hero__img {
+    width: 435px;
+    height: 485px;
+
+    @media screen and(max-width:920px) {
+        width: 100%;
+        height: 100%;
+    }
+}

@@ -11,6 +11,13 @@
         @media screen and(max-width:500px) {
             grid-template-columns: repeat(1, 1fr);
         }
+
+        &--certificates {
+
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
     }
 
     &__item {
@@ -19,5 +26,15 @@
         @media screen and(max-width:500px) {
             max-width: 100%;
         }
+
+        &--certificates {
+            max-width: 470px;
+        }
+
+    }
+
+    &__title {
+        @include text16pxBold;
+        margin-bottom: 10px;
     }
 }

@@ -73,6 +73,25 @@
     }
 }
 
+@mixin text32pxSemiBold {
+    font-family: MontserratSemiBold, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    text-transform: uppercase;
+
+    @media screen and(max-width:920px) {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    @media screen and(max-width:640px) {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
 @mixin text16pxUpper {
     font-family: MontserratRegular, sans-serif;
     font-style: normal;
@@ -97,6 +116,16 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
+
+    @media screen and(max-width:920px) {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    @media screen and(max-width:640px) {
+        font-size: 12px;
+        line-height: 15px;
+    }
 }
 
 

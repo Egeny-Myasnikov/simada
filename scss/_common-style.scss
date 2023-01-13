@@ -16,6 +16,7 @@ h1 {
     width: 100%;
     max-width: var(--containerWidth);
     margin: 0 auto;
+    margin-bottom: 130px;
     padding: 0 20px;
 
     @media screen and(max-width:640px) {
@@ -147,15 +148,13 @@ h1 {
     &--lower {
         @include text16pxLower;
 
-        @media screen and(max-width:920px) {
-            font-size: 14px;
-            line-height: 17px;
-        }
 
-        @media screen and(max-width:640px) {
-            font-size: 12px;
-            line-height: 15px;
-        }
+
+    }
+
+    &--12px {
+        @include text12px;
+        text-transform: lowercase;
     }
 
     &--upper {
