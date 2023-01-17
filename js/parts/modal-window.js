@@ -42,9 +42,16 @@ export const modalWindow = (selector) => {
     }
   };
 
-  const closeModal = (btn, modal) => {
+  const closeModal = (btn, modal, container) => {
     btn.addEventListener("click", () => {
-      modal.remove();
+      modal.classList.remove("open");
+      container.classList.remove("open");
+      modal.classList.add("close");
+      container.classList.add("close");
+      setTimeout(() => {
+        modal.remove();
+        document.body.removeAttribute("style");
+      }, 650);
     });
   };
   const showModal = (self) => {
@@ -61,7 +68,11 @@ export const modalWindow = (selector) => {
       showModal(self);
       const closeBtn = document.querySelector(".modal__close");
       const modal = document.querySelector(".modal");
-      closeModal(closeBtn, modal);
+      const container = modal.querySelector(".modal__container");
+      modal.classList.add("open");
+      container.classList.add("open");
+      document.body.style.overflow = "hidden";
+      closeModal(closeBtn, modal, container);
     });
   });
 };
